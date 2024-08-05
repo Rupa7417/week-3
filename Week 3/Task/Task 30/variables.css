@@ -1,0 +1,47 @@
+/* Define CSS variables */
+:root {
+    /* Colors */
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+
+    /* Font sizes */
+    --base-font-size: 16px;
+    --heading-font-size: 24px;
+
+    /* Spacing */
+    --padding: 20px;
+    --margin: 20px;
+}
+
+/* Example usage of variables */
+body {
+    font-size: var(--base-font-size);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    color: var(--primary-color);
+    margin-bottom: var(--margin);
+}
+
+p {
+    color: var(--secondary-color);
+    margin-bottom: var(--margin);
+    padding: var(--padding);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: var(--padding);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}

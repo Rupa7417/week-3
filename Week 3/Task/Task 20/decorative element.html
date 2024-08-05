@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decorative Elements with ::before and ::after</title>
+    <style>
+        .decorative-text {
+            font-size: 18px;
+            color: #34495e;
+            position: relative;
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            display: inline-block;
+            margin: 20px;
+            background-color: #ecf0f1;
+        }
+
+        .decorative-text::before {
+            content: "★";
+            font-size: 24px;
+            color: #f39c12;
+            margin-right: 10px;
+        }
+
+        .decorative-text::after {
+            content: "★";
+            font-size: 24px;
+            color: #f39c12;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="decorative-text">
+        This is a styled block of text with decorative elements before and after.
+    </div>
+</body>
+</html>

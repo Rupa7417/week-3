@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/* Pseudo-classes */
+.link-list a:hover {
+    color: #0056b3; /* Change color when hovered */
+}
+
+.link-list a:focus {
+    background-color: #e0e0e0; /* Change background color when focused */
+    outline: none; /* Remove default outline */
+}
+
+.link-list a:active {
+    text-decoration: underline; /* Change text decoration when active */
+}
+
+.link-list a:visited {
+    color: #6c757d; /* Change color after visited */
+}
